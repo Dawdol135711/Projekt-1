@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+html{
+
+    --text-color-1:rgb(43, 43, 43);
+    --color-1:rgb(231, 231, 231);
+    --color-2:rgba(0, 0, 206, 0.5);
+}
+
+body{
+    background-color: var(--color-1);
+    height: 200vh;
+}
+nav{
+    position:sticky;
+    top:0;
+    left:0;
+    display:flex;
+    justify-content: space-between;
+    padding:.6rem 1.2rem;
+    color:var(--text-color-1);
+    background-color: var(--color-2);
+}
+nav ul{
+    display:flex;
+    align-items: center;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul a{
+    padding: 0 0.8rem;
+    text-decoration: none;
+    color:var(--text-color-1);
+    font-size: 1.2rem;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+}
+nav .logo a{
+    text-decoration: none;
+    font-family: 'Yesteryear', cursive;
+    font-size: 3rem;
+    color:var(--text-color-1);
+    text-shadow: 2px 1px 4px var(--text-color-1);
+}
