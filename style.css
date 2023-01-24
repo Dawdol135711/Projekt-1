@@ -1,77 +1,94 @@
-*{
-    margin:0;
+* {
+	margin: 0;
 }
-html{
-
-    --text-color-1:rgb(43, 43, 43);
-    --color-1:rgb(231, 231, 231);
-    --color-2:rgb(169, 169, 173);
-    --color-3:rgba(169, 169, 173,0.6);
-}
-
-body{
-    background-color: var(--color-1);
-    height: 200vh;
-}
-nav{
-    position:sticky;
-    top:0;
-    left:0;
-    z-index: 100;
-    display:flex;
-    justify-content: space-between;
-    padding:.6rem 1.2rem;
-    color:var(--text-color-1);
-    background-color: var(--color-2);
-    box-shadow:2px 1px var(--text-color-1);
-}
-nav ul{
-    display:flex;
-    align-items: center;
-}
-nav ul li{
-    list-style:none;
-}
-nav ul a{
-    padding: 0 0.8rem;
-    text-decoration: none;
-    color:var(--text-color-1);
-    font-size: 1.2rem;
-    font-family: 'Saira', sans-serif;
-    font-weight: 600;
-}
-nav .logo a{
-    text-decoration: none;
-    font-family: 'Yesteryear', cursive;
-    font-size: 3rem;
-    color:var(--text-color-1);
-    text-shadow: 2px 1px 4px var(--text-color-1);
-}
-header{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    margin: 0 auto;
-    height: 90vh;
-    background-image: url(/img/people-gf24f995ae_1920.jpg);
-
-    
+html {
+	--text-color-1: rgb(43, 43, 43);
+	--text-color-2: rgb(66, 66, 66);
+	--color-1: rgb(231, 231, 231);
+	--color-2: rgb(169, 169, 173);
+	--color-3: rgba(169, 169, 173, 0.6);
 }
 
-header .container{
+body {
+	background-color: var(--color-1);
+	height: 200vh;
+}
+nav {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.6rem 1.2rem;
+	color: var(--text-color-1);
+	background-color: var(--color-2);
+	box-shadow: 2px 1px var(--text-color-1);
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul a {
+	padding: 0 0.8rem;
+	text-decoration: none;
+	color: var(--text-color-1);
+	font-size: 1.2rem;
+	font-family: "Saira", sans-serif;
+	font-weight: 600;
+	transition: color 0.3s;
+}
+nav ul a:hover {
+	color: var(--text-color-2);
+}
 
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: 20rem;
-    text-align: center;
-    font-family: 'Saira', sans-serif;
-    background-color:var(--color-3) ;
-    color:var(--text-color-1);
-    border-radius:5px;
-    box-shadow: 1px 1px 5px var(--text-color-1)
-    
+nav .logo a {
+	text-decoration: none;
+	font-family: "Yesteryear", cursive;
+	font-size: 3rem;
+	color: var(--text-color-1);
+	text-shadow: 1px 1px 2px var(--text-color-1);
+}
+
+nav .logo a span {
+	/* color:var(--text-color-2); */
+	font-weight: bold;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	height: 90vh;
+	background-image: url(/img/fitness-gf0ce8877f_1920.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	mix-blend-mode: multiply;
+}
+
+header .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	height: 20rem;
+	text-align: center;
+	font-family: "Saira", sans-serif;
+	background-color: var(--color-3);
+	color: var(--text-color-1);
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px var(--text-color-1);
+	text-shadow: 1px 1px 2px var(--text-color-1);
+}
+header h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+header p {
+	font-size: 1.2rem;
 }
