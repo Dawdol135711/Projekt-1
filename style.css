@@ -65,7 +65,7 @@ header {
 	margin: 0 auto 20rem auto;
 	height: 90vh;
 	background-color: rgb(132, 131, 130);
-	background-image: url(/img/fitness-gf0ce8877f_1920.jpg);
+	background-image: url(/img/kettlebell-gb4e2a27a5_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-blend-mode: multiply;
@@ -92,39 +92,47 @@ header h1 {
 }
 header p {
 	font-size: 1.2rem;
+	padding:0.4rem;
 }
- .info{
-	display:flex;
-	flex-wrap:wrap;
+header p:nth-child(3) {
+	font-weight: 600;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 }
-.card-info{
+.card-info {
 	height: 35rem;
 	width: 20rem;
-	margin:3rem;
+	margin: 3rem;
 	background-color: var(--color-2);
 	border-radius: 8px;
 	overflow: hidden;
 	box-shadow: 2px 2px 6px var(--color-3);
-	color:var(--text-color-1);
+	color: var(--text-color-1);
 	text-align: center;
 	font-family: "Saira", sans-serif;
-	
-
 }
-.card-info .img{
-	width:100%;
+.card-info .img {
+	width: 100%;
 	height: 50%;
 	background-image: url(/img/girl-g010e7b2be_1920.jpg);
 	background-size: cover;
 }
-.card-info h2{
-	padding:1.5rem 1.5rem 0 1.5rem;
+.card-info:nth-child(2) .img {
+	background-image: url(/img/yoga-g9099f95c7_640.jpg);
+}
+.card-info:nth-child(3) .img {
+	background-image: url(/img/fitness-gf0ce8877f_1920.jpg);
+}
+.card-info h2 {
+	padding: 1.5rem 1.5rem 0 1.5rem;
 	font-size: 1.8rem;
 }
-.card-info p{
+.card-info p {
 	letter-spacing: 1px;
 	line-height: 1.5rem;
-	padding:0.8rem;
+	padding: 0.8rem;
 }
