@@ -11,13 +11,12 @@ html {
 
 body {
 	background-color: var(--color-1);
-	height: 200vh;
 }
-nav {
+header nav {
 	position: sticky;
 	top: 0;
 	left: 0;
-	z-index: 100;
+	/* z-index: 100; */
 	display: flex;
 	justify-content: space-between;
 	padding: 0.6rem 1.2rem;
@@ -25,7 +24,7 @@ nav {
 	background-color: var(--color-2);
 	box-shadow: 2px 1px var(--text-color-1);
 }
-nav ul {
+header nav ul {
 	display: flex;
 	align-items: center;
 }
@@ -41,7 +40,7 @@ nav ul a {
 	font-weight: 600;
 	transition: color 0.3s;
 }
-nav ul a:hover {
+header nav ul a:hover {
 	color: var(--text-color-2);
 }
 
@@ -67,6 +66,7 @@ nav .logo a span {
 	justify-content: space-between;
 	width: 3rem;
 	height: 2rem;
+	display:none;
 }
 .burger-btn span {
 	display: block;
@@ -113,6 +113,14 @@ header p {
 }
 header p:nth-child(3) {
 	font-weight: 600;
+}
+#mobile-menu{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	background-color: var(--text-color-2);
 }
 h2 {
 	font-family: "Saira", sans-serif;
