@@ -7,7 +7,7 @@
 	}
 }
 @media (max-width: 576px) {
-	.desktop-nav {
+	.desktop-nav ul {
 		display: none;
 	}
 	.burger-btn {
