@@ -79,7 +79,7 @@ body>header {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	margin: 0 auto 10rem auto;
+	margin: 0 auto 8rem auto;
 	height: 90vh;
 	background-color: rgb(132, 131, 130);
 	background-image: url(/img/kettlebell-gb4e2a27a5_1920.jpg);
@@ -151,7 +151,7 @@ h2 {
 	color: var(--text-color-1);
 	text-align: center;
 	font-size: 3rem;
-	margin-bottom: 5rem;
+	margin-bottom: 1.5rem;
 	text-shadow: 1px 1px 1px var(--text-color-1);
 }
 .info {
@@ -183,6 +183,15 @@ h2 {
 }
 .card-info:nth-child(3) .img {
 	background-image: url(/img/fitness-gf0ce8877f_1920.jpg);
+}
+.card-info:nth-child(4) .img {
+	background-image: url(/img/Bez-tytułu-768x419.jpg);
+}
+.card-info:nth-child(5) .img {
+	background-image: url(/img/bath-gabe9b9eae_640.jpg);
+}
+.card-info:nth-child(6) .img {
+	background-image: url(/img/fitness-gdbf12557a_640.jpg);
 }
 .card-info h3 {
 	padding: 2rem 1.5rem 0.7rem 1.5rem;
