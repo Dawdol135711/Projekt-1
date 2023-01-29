@@ -5,6 +5,13 @@
 	main h2 {
 		font-size: 1.8rem;
 	}
+	.club-inside{
+		display:flex;
+		flex-direction: column;
+		width:80%;
+		height: 80%;
+
+	}
 }
 @media (max-width: 576px) {
 	.desktop-nav ul {

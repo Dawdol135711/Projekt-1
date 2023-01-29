@@ -273,3 +273,6 @@ h2 {
 .club-inside .container:nth-child(7){
 	grid-row:span 2;
 }
+.h2-inside{
+	margin:5rem auto 4rem auto;
+}
