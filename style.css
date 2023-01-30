@@ -173,7 +173,7 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
-.card-info {
+.card-info,.prices .card {
 	height: 35rem;
 	width: 20rem;
 	margin: 3rem;
@@ -279,4 +279,32 @@ h2 {
 }
 .h2-inside {
 	margin: 5rem auto 4rem auto;
+}
+.prices{
+	width:80%;
+	margin:10rem auto;
+}
+.prices .card{
+	width:25rem;
+	background-image: radial-gradient(circle at 51.68% 48.32%, #e0ecea 0, #dadfde 25%, #d2d2d2 50%, #cac5c6 75%, #c3b9bc 100%);
+}
+.card-section h3{
+	font-weight: bold;
+	font-size: 2rem;
+	margin:2rem;
+}
+.card-section .info{
+	font-weight: bold;
+	font-size: 1.2rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+.card-section .price{
+	text-align: center;
+	font-weight: bold;
+	font-size: 3rem;
+}
+.card-section p{
+	text-align: left;
+	padding-left:2rem;
 }
