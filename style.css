@@ -54,8 +54,8 @@ nav ul a {
 	font-weight: 600;
 	transition: color 0.3s;
 }
-header nav ul a:hover {
-	color: var(--text-color-2);
+.desktop-nav ul a:hover {
+	color: var(--color-5);
 }
 
 nav .logo a {
@@ -95,7 +95,7 @@ body > header {
 	width: 100%;
 	margin: 0 auto 8rem auto;
 	height: 90vh;
-	background-color: rgb(132, 131, 130);
+	background-color: rgb(219, 219, 219);
 	background-image: url(/img/kettlebell-gb4e2a27a5_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -346,4 +346,10 @@ h2 {
 .card-section li{
 	padding:0.8rem;
 
+}
+.shedule{
+	overflow-x:scroll;
+}
+.shedule-img{
+	width:100rem;
 }
