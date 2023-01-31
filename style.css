@@ -9,7 +9,10 @@ html {
 	--color-1: rgb(231, 231, 231);
 	--color-2: rgb(169, 169, 173);
 	--color-3: rgba(169, 169, 173, 0.6);
+	--color-4:rgb(66, 205, 66);
+	--color-5:rgb(88, 239, 88);
 	scroll-behavior: smooth;
+	scroll-padding-top: 6rem;
 }
 
 body {
@@ -295,12 +298,36 @@ h2 {
 	width:23rem;
 	background-image: radial-gradient(circle at 51.68% 48.32%, #e0ecea 0, #dadfde 25%, #d2d2d2 50%, #cac5c6 75%, #c3b9bc 100%);
 	padding-bottom: 1rem;
+	transition:box-shadow 0.2s;
+	cursor:pointer;
 }
-
+.prices .card:hover{
+	box-shadow:0px 0px 20px var(--color-2);
+}
+.prices .card:hover .price{
+	color:var(--color-5);
+}
+.prices .price{
+	color:var(--color-4);
+	transition:color 0.2s;
+}
+.prices .standard li:nth-child(3),.prices .standard li:nth-child(4),.prices .standard li:nth-child(5){
+	text-decoration:line-through;
+}
+.prices .silver li:nth-child(4),.prices .silver li:nth-child(5){
+	text-decoration:line-through;
+}
+.prices .gold li:nth-child(5){
+	text-decoration:line-through;
+}
 .card-section h3{
 	font-weight: bold;
 	font-size: 2rem;
 	margin:2rem;
+}
+.card-section h3 span{
+	font-style: italic;
+	text-decoration: underline;
 }
 .card-section ul{
 	padding-bottom:1rem;
@@ -315,10 +342,6 @@ h2 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 3rem;
-}
-.card-section p{
-	text-align: left;
-	padding-left:2rem;
 }
 .card-section li{
 	padding:0.8rem;
