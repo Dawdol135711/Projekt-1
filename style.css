@@ -281,17 +281,29 @@ h2 {
 	margin: 5rem auto 4rem auto;
 }
 .prices{
-	width:80%;
+	width:100%;
 	margin:10rem auto;
 }
-.prices .card{
-	width:25rem;
-	background-image: radial-gradient(circle at 51.68% 48.32%, #e0ecea 0, #dadfde 25%, #d2d2d2 50%, #cac5c6 75%, #c3b9bc 100%);
+.prices .wrapper{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: center;
 }
+.prices .card{
+	width:23rem;
+	background-image: radial-gradient(circle at 51.68% 48.32%, #e0ecea 0, #dadfde 25%, #d2d2d2 50%, #cac5c6 75%, #c3b9bc 100%);
+	padding-bottom: 1rem;
+}
+
 .card-section h3{
 	font-weight: bold;
 	font-size: 2rem;
 	margin:2rem;
+}
+.card-section ul{
+	padding-bottom:1rem;
 }
 .card-section .info{
 	font-weight: bold;
@@ -307,4 +319,8 @@ h2 {
 .card-section p{
 	text-align: left;
 	padding-left:2rem;
+}
+.card-section li{
+	padding:0.8rem;
+
 }
