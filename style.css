@@ -9,8 +9,8 @@ html {
 	--color-1: rgb(231, 231, 231);
 	--color-2: rgb(169, 169, 173);
 	--color-3: rgba(169, 169, 173, 0.6);
-	--color-4:rgb(66, 205, 66);
-	--color-5:rgb(88, 239, 88);
+	--color-4: rgb(66, 205, 66);
+	--color-5: rgb(88, 239, 88);
 	scroll-behavior: smooth;
 	scroll-padding-top: 6rem;
 }
@@ -27,7 +27,7 @@ body {
 	);
 }
 .desktop-nav {
-	z-index:5;
+	z-index: 5;
 	position: sticky;
 	top: 0;
 	left: 0;
@@ -130,7 +130,7 @@ header p:nth-child(3) {
 	font-weight: 600;
 }
 #mobile-menu {
-	z-index:5;
+	z-index: 5;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -176,7 +176,8 @@ h2 {
 	align-items: center;
 	justify-content: center;
 }
-.card-info,.prices .card {
+.card-info,
+.prices .card {
 	height: 35rem;
 	width: 20rem;
 	margin: 3rem;
@@ -283,73 +284,110 @@ h2 {
 .h2-inside {
 	margin: 5rem auto 4rem auto;
 }
-.prices{
-	width:100%;
-	margin:10rem auto;
+.prices {
+	width: 100%;
+	margin: 10rem auto;
 }
-.prices .wrapper{
-	width:100%;
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
+.prices .wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 }
-.prices .card{
-	width:23rem;
-	background-image: radial-gradient(circle at 51.68% 48.32%, #e0ecea 0, #dadfde 25%, #d2d2d2 50%, #cac5c6 75%, #c3b9bc 100%);
+.prices .card {
+	width: 23rem;
+	background-image: radial-gradient(
+		circle at 51.68% 48.32%,
+		#e0ecea 0,
+		#dadfde 25%,
+		#d2d2d2 50%,
+		#cac5c6 75%,
+		#c3b9bc 100%
+	);
 	padding-bottom: 1rem;
-	transition:box-shadow 0.2s;
-	cursor:pointer;
+	transition: box-shadow 0.2s;
+	cursor: pointer;
 }
-.prices .card:hover{
-	box-shadow:0px 0px 20px var(--color-2);
+.prices .card:hover {
+	box-shadow: 0px 0px 20px var(--color-2);
 }
-.prices .card:hover .price{
-	color:var(--color-5);
+.prices .card:hover .price {
+	color: var(--color-5);
 }
-.prices .price{
-	color:var(--color-4);
-	transition:color 0.2s;
+.prices .price {
+	color: var(--color-4);
+	transition: color 0.2s;
 }
-.prices .standard li:nth-child(3),.prices .standard li:nth-child(4),.prices .standard li:nth-child(5){
-	text-decoration:line-through;
+.prices .standard li:nth-child(3),
+.prices .standard li:nth-child(4),
+.prices .standard li:nth-child(5) {
+	text-decoration: line-through;
 }
-.prices .silver li:nth-child(4),.prices .silver li:nth-child(5){
-	text-decoration:line-through;
+.prices .silver li:nth-child(4),
+.prices .silver li:nth-child(5) {
+	text-decoration: line-through;
 }
-.prices .gold li:nth-child(5){
-	text-decoration:line-through;
+.prices .gold li:nth-child(5) {
+	text-decoration: line-through;
 }
-.card-section h3{
+.card-section h3 {
 	font-weight: bold;
 	font-size: 2rem;
-	margin:2rem;
+	margin: 2rem;
 }
-.card-section h3 span{
+.card-section h3 span {
 	font-style: italic;
 	text-decoration: underline;
 }
-.card-section ul{
-	padding-bottom:1rem;
+.card-section ul {
+	padding-bottom: 1rem;
 }
-.card-section .info{
+.card-section .info {
 	font-weight: bold;
 	font-size: 1.2rem;
 	text-align: center;
 	margin-bottom: 1rem;
 }
-.card-section .price{
+.card-section .price {
 	text-align: center;
 	font-weight: bold;
 	font-size: 3rem;
 }
-.card-section li{
-	padding:0.5rem;
-
+.card-section li {
+	padding: 0.5rem;
 }
-.shedule{
-	overflow-x:scroll;
+.shedule {
+	overflow-x: scroll;
 }
-.shedule-img{
-	width:100rem;
+.shedule-img {
+	width: 100rem;
+}
+h2.opinions {
+	margin-top: 4rem;
+}
+.opinions .wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+.opinions ul li {
+	list-style: none;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	box-shadow: 2px 2px 2px var(--color-5);
+}
+.opinions ul img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	padding-right: 2rem;
+}
+.opinions p {
+	letter-spacing: 1px;
+	font-family: "Saira";
+	font-style: italic;
 }
