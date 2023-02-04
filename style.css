@@ -450,6 +450,10 @@ footer{
 	background-color: var(--text-color-2);
 	padding: 3rem 3rem 0.5rem 3rem;
 }
+section.map{
+	padding:0;
+	overflow-x:scroll ;
+}
 footer .wrapper {
 	display: flex;
 	flex-wrap: wrap;
