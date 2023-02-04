@@ -443,6 +443,54 @@ textarea:focus {
 	transition-duration: 0.3s;
 }
 .opinion-add button:hover {
-	background-color: var(--color-5);
+	background-color: var(--text-color-1);
 	color: white;
+}
+footer{
+	background-color: var(--text-color-2);
+	padding: 3rem 3rem 0.5rem 3rem;
+}
+footer .wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+footer ul {
+	list-style: none;
+}
+footer li {
+	font-family: "saira", sans-serif;
+	color: var(--color-1);
+	font-size: 1.25rem;
+	line-height: 2rem;
+}
+footer .contact {
+	margin:1.5rem;
+	text-align: center;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.contact .media {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10rem;
+}
+.contact .media a {
+	font-size: 3rem;
+}
+.contact .media li:nth-child(1) a {
+	color: rgb(24, 119, 242);
+}
+.contact .media li:nth-child(2) a {
+	color: rgb(195, 42, 163);
+}
+.contact .media li:nth-child(3) a {
+	color: rgb(255, 0, 0);
+}
+.copy{
+	text-align: center;
+	margin-top:1rem;
 }
