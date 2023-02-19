@@ -98,7 +98,7 @@ body > header {
 	margin: 0 auto 8rem auto;
 	height: 90vh;
 	background-color: rgb(219, 219, 219);
-	background-image: url(/img/kettlebell-gb4e2a27a5_1920.jpg);
+	background-image: url(img/kettlebell-gb4e2a27a5_1920.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-blend-mode: multiply;
@@ -194,23 +194,23 @@ h2 {
 .card-info .img {
 	width: 100%;
 	height: 50%;
-	background-image: url(/img/girl-g010e7b2be_1920.jpg);
+	background-image: url(img/girl-g010e7b2be_1920.jpg);
 	background-size: cover;
 }
 .card-info:nth-child(2) .img {
-	background-image: url(/img/yoga-g9099f95c7_640.jpg);
+	background-image: url(img/yoga-g9099f95c7_640.jpg);
 }
 .card-info:nth-child(3) .img {
-	background-image: url(/img/fitness-gf0ce8877f_1920.jpg);
+	background-image: url(img/fitness-gf0ce8877f_1920.jpg);
 }
 .card-info:nth-child(4) .img {
-	background-image: url(/img/Bez-tytułu-768x419.jpg);
+	background-image: url(img/Bez-tytułu-768x419.jpg);
 }
 .card-info:nth-child(5) .img {
-	background-image: url(/img/bath-gabe9b9eae_640.jpg);
+	background-image: url(img/bath-gabe9b9eae_640.jpg);
 }
 .card-info:nth-child(6) .img {
-	background-image: url(/img/fitness-gdbf12557a_640.jpg);
+	background-image: url(img/fitness-gdbf12557a_640.jpg);
 }
 .card-info h3 {
 	padding: 2rem 1.5rem 0.7rem 1.5rem;
